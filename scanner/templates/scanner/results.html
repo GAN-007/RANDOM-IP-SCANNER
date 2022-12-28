@@ -1,0 +1,10 @@
+{% if reachable_ips %}
+  <p>The following IPs are reachable:</p>
+  <ul>
+    {% for ip in reachable_ips %}
+      <li>{{ ip }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p>No reachable IPs were found.</p>
+{% endif %}
