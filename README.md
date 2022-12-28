@@ -1,6 +1,6 @@
 # RANDOM-IP-SCANNER
 RANDOM IP SCANNER(using Python Django)
-once in the ip_scanner directory ....
+once in the RANDOM-IP-SCANNER directory ....
 assuming you already have django setup , 
 run:  python manage.py runserver
 this will prompt this url(http://127.0.0.1:8000)
